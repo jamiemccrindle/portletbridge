@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<liferay-portlet-app>
+
+	<portlet>
+		<portlet-name>PortletBridgePortlet</portlet-name>
+		<instanceable>true</instanceable>
+	</portlet>
+
+	<role-mapper>
+		<role-name>portletbridge</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+
+</liferay-portlet-app>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!-- 
+/*
+ * Copyright 2001-2004 The Apache Software Foundation.
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<document>
+
+ <properties>
+  <title>PortletBridge Portlet Configuration</title>
+ </properties>
+
+<body>
+<section name="Quick Portlet Configuration">
+<p>
+The PortletBridge portlet should run without any specific configuration. All you
+need to do is deploy it into your portal and then edit the preferences. It is recommended
+that you remove the edit mode in a live deployment. Please note,
+you will have to either map the "portletbridge" role to an appropriate local role (for Liferay,
+the liferay.xml descriptor maps it to "Administrator") or set up a "portletbridge" role
+(for JBoss 2.0).
+</p>
+</section>
+<section name="Full Portlet Configuration">
+<p>
+Init Params:
+<table>
+<tr><th>Name</th><th>Description</th><th>Required</th></tr>
+<tr><td>mementoSessionKey</td><td>mementoSessionKey</td><td>Yes</td></tr>
+<tr><td>servletName</td><td>pbhs</td><td>Yes</td></tr>
+<tr><td>parserClassName</td><td>org.cyberneko.html.parsers.SAXParser</td><td>Yes</td></tr>
+<tr><td>authenticatorClassName</td><td>The classname of the bridge authenticator.</td><td>Yes</td></tr>
+<tr><td>editStylesheet</td><td>URL to the edit stylesheet</td><td>Yes</td></tr>
+<tr><td>helpStylesheet</td><td>URL to the help stylesheet</td><td>Yes</td></tr>
+<tr><td>errorStylesheet</td><td>URL to the error stylesheet</td><td>Yes</td></tr>
+<tr><td>cssRegex</td><td>A regular expession for rewriting css urls (capturing groups are rewritten)</td><td>Yes</td></tr>
+<tr><td>jsRegex</td><td>A regular expession for rewriting javascript urls (capturing groups are rewritten)</td><td>Yes</td></tr>
+</table>
+</p>
+<p>
+Preferences:
+<table>
+<tr><th>Name</th><th>Description</th><th>Readonly</th><th>Required</th></tr>
+<tr><td>secureEdit</td><td>Whether or not EDIT checks for isUserInRole("portletbridge"). False by default.</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>initUrl</td><td>The initial url for the portlet to point to</td><td>No</td><td>Yes</td></tr>
+<tr><td>scope</td><td>A regular expression that identifies which downstream sites should be proxied and which just linked to.</td><td>No</td><td>Yes</td></tr>
+<tr><td>authentication</td><td>What kind of authentication to use ("none", "basic", "ntlm")</td><td>No</td><td>No</td></tr>
+<tr><td>authenticationUsername</td><td>Username</td><td>No</td><td>No</td></tr>
+<tr><td>authenticationPassword</td><td>Password</td><td>No</td><td>No</td></tr>
+<tr><td>authenticationHost</td><td>Host (for ntlm)</td><td>No</td><td>No</td></tr>
+<tr><td>authenticationDomain</td><td>Domain (for ntlm)</td><td>No</td><td>No</td></tr>
+<tr><td>proxyHost</td><td>The Proxy Host</td><td>No</td><td>No</td></tr>
+<tr><td>proxyPort</td><td>The Proxy Port</td><td>No</td><td>No</td></tr>
+<tr><td>proxyAuthentication</td><td>Proxy Authentication ("none", "basic", "ntlm")</td><td>No</td><td>No</td></tr>
+<tr><td>proxyAuthenticationUsername</td><td>Proxy Username</td><td>No</td><td>No</td></tr>
+<tr><td>proxyAuthenticationPassword</td><td>Proxy Password</td><td>No</td><td>No</td></tr>
+<tr><td>proxyAuthenticationHost</td><td>Proxy Authentication Host (for ntlm)</td><td>No</td><td>No</td></tr>
+<tr><td>proxyAuthenticationDomain</td><td>Proxy Authentication Domain (for ntlm)</td><td>No</td><td>No</td></tr>
+<tr><td>stylesheet</td><td>The XSLT to be applied to the stream</td><td>No</td><td>No</td></tr>
+<tr><td>stylesheetUrl</td><td>A url to the stylesheet, preferred to the stylesheet preference e.g. classpath:/org/portletbridge/xsl/portletbridge.xsl</td><td>No</td><td>No</td></tr>
+</table>
+</p>
+</section>
+<section name="Servlet Configuration">
+<p>
+Init Params:
+<table>
+<tr><th>Name</th><th>Description</th><th>Required</th></tr>
+<tr><td>mementoSessionKey</td><td>The key to store portletbridge user data under</td><td>Yes</td></tr>
+<tr><td>parserClassName</td><td>The name of the parser class to use</td><td>Yes</td></tr>
+<tr><td>servletName</td><td>The name the servlet is under</td><td>Yes</td></tr>
+</table>
+</p>
+</section>
+<section name="Requirements">
+<p>
+Portlet Bridge requires Java 1.4 or above.
+</p>
+</section>
+</body>
+</document>

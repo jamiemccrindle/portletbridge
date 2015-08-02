@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Maven">
+  <!--
+  <bannerLeft>
+    <name>PortletBridge</name>
+    <href>http://www.portletbridge.org</href>
+    <src>http://maven.apache.org/images/apache-maven-project.png</src>
+  </bannerLeft>
+  -->
+  <!--
+  <bannerRight>
+    <src>http://maven.apache.org/images/maven-small.gif</src>
+  </bannerRight>
+  -->
+   <poweredBy>  
+      <logo name="Hosted on SourceForge.net" href="http://sourceforge.net"  
+            img="http://sflogo.sourceforge.net/sflogo.php?group_id=142264&amp;type=2" />  
+      <logo name="Build with Maven 2" href="http://maven.apache.org"   
+            img="images/logos/maven-feather.png" />  
+   </poweredBy>  
+  <body>
+    <links>
+      <item name="SourceForge" href="http://portletbridge.sf.net/"/>
+    </links>
+
+    <menu name="PortletBridge">
+      <item name="PortletBridge Home" href="http://www.portlebridge.org"/>
+    </menu>
+        <head>
+            <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+            </script>
+            <script type="text/javascript">
+                _uacct = "UA-114308-1";
+                urchinTracker();
+            </script>
+        </head>
+
+       <menu ref="reports"/>
+
+  </body>
+</project>

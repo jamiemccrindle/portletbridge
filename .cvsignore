@@ -1,0 +1,10 @@
+target
+.project
+portletbridge-portlet-jetspeed-2.x
+portletbridge-portlet-exo-2.x
+mvnsitearchetype.sh
+mvnportletarchetype.sh
+mvnjararchetype.sh
+prepare.sh
+perform.sh
+upload.sh

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<display>
+  <category name="category.development">
+    <portlet id="PortletBridgePortlet" />
+  </category>
+</display>
+

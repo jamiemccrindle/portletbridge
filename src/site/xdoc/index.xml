@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!-- 
+/*
+ * Copyright 2001-2004 The Apache Software Foundation.
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<document>
+
+ <properties>
+  <title>PortletBridge - The Web Clipping Portlet</title>
+ </properties>
+
+<body>
+
+<section name="PortletBridge">
+<p>
+The Portlet Bridge Portlet is a web clipping proxy portlet that allows web application be 
+hosted as portlets. See the <a href="/multiproject/portletbridge-portlet/index.html">PortletBridge Portlet</a>
+project for more information. The portlet bridge portlet makes downstream HTTP
+calls and uses CyberNeko and XSLT to do the web clipping.
+</p>
+</section>
+<section name="Screenshots">
+<p>
+<table>
+<tr>
+<td><a href="images/jboss-0.3.png"><img src="images/jboss-0.3-thumb.png"/></a></td>
+<td>JBoss Portal 2.0</td>
+</tr>
+<tr>
+<td><a href="images/liferay-0.3.png"><img src="images/liferay-0.3-thumb.png"/></a></td>
+<td>Liferay 3.6.0</td>
+</tr>
+<tr>
+<td><a href="images/pluto-0.3.png"><img src="images/pluto-0.3-thumb.png"/></a></td>
+<td>Pluto 1.0.1 Release Candidate 2</td>
+</tr>
+</table>
+</p>
+</section>
+<section name="Latest News">
+<p>
+<table>
+<tr>
+<th>Date</th><th>News</th>
+</tr>
+<tr>
+<td>November 2007</td>
+<td>
+The move to Maven2 begins
+</td>
+</tr>
+<tr>
+<td>January 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.1.2 has been released.
+</td>
+</tr>
+<tr>
+<td>January 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.1.1 has been released.
+</td>
+</tr>
+<tr>
+<td>January 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.1 Final has been released! 
+</td>
+</tr>
+<tr>
+<td>December 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.1-rc2 has been released. 
+Features include: Upgrade to neko 0.9.5, Parser feature and property support and stylesheetUrl preference support.
+</td>
+</tr>
+<tr>
+<td>November 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.1-rc1 has been released. 
+Features include: Base URL support, initial configurable authenticator support and various bug fixes.
+</td>
+</tr>
+<tr>
+<td>November 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.1-beta3 has been released. 
+Features include: Better integration with <a href="http://www.gridsphere.org">Gridsphere</a> 2.1.1, configurable request id's to avoid clashes and is 
+compiled with Java 1.4.2.
+</td>
+</tr>
+<tr>
+<td>October 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.1-beta2 has been released. 
+New features include: rewriting of remote css and javascript; configurable regular expressions for css and 
+javascript; upgrade to httpclient rc4; and numerous bug fixes.
+</td>
+</tr>
+<tr>
+<td>October 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.1-beta1 has been released. 
+</td>
+</tr>
+<tr>
+<td>September 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 1.0 has been released. 
+If you find it useful please let me know by mail at dkfn at users.sourceforge.net. Same goes for any
+bugs, enhancement requests etc.
+</td>
+</tr>
+<tr>
+<td>September 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> beta 1 has been released. 
+While there are still a few todo's, the PortletBridge portlet is essentially feature complete for 1.0.
+That said, if there are any features you'd like to see in the portlet, please let me know by mail at 
+dkfn at users.sourceforge.net.
+</td>
+</tr>
+<tr>
+<td>August 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 0.4 Released. New
+features include: the ability to secure the edit page; editing of the xsl preference; guid generation;
+better management of processed links.
+</td>
+</tr>
+<tr>
+<td>August 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 0.3.1 Released. 
+This is a bug fix release.
+</td>
+</tr>
+<tr>
+<td>August 2005</td>
+<td>
+<a href="http://www.sourceforge.net/projects/portletbridge">PortletBridge Portlet</a> 0.3 Released. 
+This is a complete rewrite based on and using code kindly donated by 
+<a href="http://jroller.com/page/rickard/">Rickard Öberg</a>.
+</td>
+</tr>
+</table>
+</p>
+</section>
+<section name="Requirements">
+<p>
+Portlet Bridge requires Java 1.4 or above.
+</p>
+</section>
+<section name="Credits">
+<p>
+<ul>
+<li>Many thanks to Rickard for writing the <a href="http://jroller.com/page/rickard/20050411">specification</a> (and challenge) that this project
+is based on.</li>
+<li>Even more thanks to Rickard for his donation of code to this project.</li>
+<li>Thanks to the fine folks at Apache for their Commons projects, Cyberneko, Xalan and Xerces etc.</li>
+<li>Thanks to Julien Viet from JBoss for his helpful advice and support</li>
+<li>Thanks to the guys at Gridsphere for helping integrate PortletBridge</li>
+<li>Thanks to Steve Woodcock for his JGUID project</li>
+</ul>
+</p>
+</section>
+</body>
+</document>

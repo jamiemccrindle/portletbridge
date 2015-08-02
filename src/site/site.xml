@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Maven">
+  <!--
+  <bannerLeft>
+    <name>PortletBridge</name>
+    <href>http://www.portletbridge.org</href>
+    <src>http://maven.apache.org/images/apache-maven-project.png</src>
+  </bannerLeft>
+  -->
+  <!--
+  <bannerRight>
+    <src>http://maven.apache.org/images/maven-small.gif</src>
+  </bannerRight>
+  -->
+   <poweredBy>  
+      <logo name="Hosted on SourceForge.net" href="http://sourceforge.net"  
+            img="http://sflogo.sourceforge.net/sflogo.php?group_id=142264&amp;type=2" />  
+      <logo name="Build with Maven 2" href="http://maven.apache.org"   
+            img="images/logos/maven-feather.png" />  
+   </poweredBy>  
+  <body>
+    <links>
+      <item name="SourceForge" href="http://portletbridge.sf.net/"/>
+    </links>
+
+    <menu name="PortletBridge">
+      <item name="FAQ" href="/faq.html"/>
+      <item name="Downloads" href="/downloads.html"/>
+      <item name="Configuration" href="/configuration.html"/>
+      <item name="Features" href="/features.html"/>
+      <item name="Screenshots" href="/screenshots.html"/>
+    </menu>
+    
+    <menu name="Sub Projects">
+      <item name="PortletBridge Core" href="/portletbridge-core/index.html"/>
+      <item name="PortletBridge Generic Portlet" href="/portletbridge-portlet/index.html"/>
+      <item name="PortletBridge Liferay 4.x Portlet" href="/portletbridge-portlet-liferay-4.x/index.html"/>
+      <item name="PortletBridge JBoss 2.6.x Portlet" href="/portletbridge-portlet-jboss-2.6.x/index.html"/>
+      <item name="PortletBridge Pluto 1.1 Portlet" href="/portletbridge-portlet-pluto-1.1/index.html"/>
+    </menu>
+        <head>
+            <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+            </script>
+            <script type="text/javascript">
+                _uacct = "UA-114308-1";
+                urchinTracker();
+            </script>
+        </head>
+
+       <menu ref="reports"/>
+
+  </body>
+</project>

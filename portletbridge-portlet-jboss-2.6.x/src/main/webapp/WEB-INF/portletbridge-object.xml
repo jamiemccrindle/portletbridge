@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deployments PUBLIC
+   "-//JBoss Portal//DTD Portal Object 2.6//EN"
+   "http://www.jboss.org/portal/dtd/portal-object_2_6.dtd">
+<deployments>
+   <deployment>
+      <parent-ref>default.default</parent-ref>
+      <if-exists>overwrite</if-exists>
+      <window>
+         <window-name>PortletBridgePortletWindow</window-name>
+         <content>
+            <content-type>portlet</content-type>
+            <content-uri>PortletBridgePortletInstance</content-uri>
+         </content>
+         <region>center</region>
+         <height>1</height>
+      </window>
+   </deployment>
+</deployments>
