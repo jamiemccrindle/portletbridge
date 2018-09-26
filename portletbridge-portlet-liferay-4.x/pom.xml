@@ -14,7 +14,7 @@
     <!-- Change this for a new Pluto version -->
     <portlet-api.version>1.0</portlet-api.version>
     <servlet-api.version>2.4</servlet-api.version>
-    <junit.version>3.8.1</junit.version>
+    <junit.version>4.12</junit.version>
   </properties>
   <dependencies>
     <dependency>
